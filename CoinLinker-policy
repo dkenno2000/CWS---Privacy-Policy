@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CoinLinker – Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; }
+  h1, h2 { color: #333; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for CoinLinker</h1>
+<p>Last updated: <strong>November 2025</strong></p>
+
+<p>
+CoinLinker is a Chrome extension that scans posts on <strong>x.com</strong> for Solana (SOL) and Binance Smart Chain (BSC/BNB) token addresses, converts them into quick links, and displays token information via public APIs.  
+This Privacy Policy explains what information the extension accesses, how it is used, and how it is stored.
+</p>
+
+<hr>
+
+<h2>1. Information the Extension Accesses</h2>
+<p>CoinLinker reads only the visible page content on <strong>x.com</strong> in order to:</p>
+<ul>
+  <li>Detect Solana and BSC token addresses appearing in posts.</li>
+  <li>Display token information and images when users hover a detected address.</li>
+</ul>
+<p>
+The extension does <strong>not</strong> access your passwords, cookies, browsing history, financial information, or any private account data.
+</p>
+
+<hr>
+
+<h2>2. Information Sent to Third-Party APIs</h2>
+<p>To display token information, the extension queries external public services.  
+These requests may include:</p>
+
+<ul>
+  <li>The token address detected on the page</li>
+</ul>
+
+<p>These requests are made only for the purpose of retrieving token metadata, images, and pricing information.</p>
+
+<p>The extension may contact the following third-party services:</p>
+<ul>
+  <li><strong>Dexscreener</strong> (market data for BSC tokens)</li>
+  <li><strong>Jupiter Lite</strong> (token metadata for Solana tokens)</li>
+  <li><strong>IPFS gateways</strong> (token images)</li>
+  <li><strong>four.meme</strong> (optional additional metadata, if available)</li>
+</ul>
+
+<p>
+Standard network metadata (such as IP address) may be visible to these services as part of a normal HTTPS request.  
+CoinLinker does <strong>not</strong> intercept or store this information.
+</p>
+
+<hr>
+
+<h2>3. Information Stored on Your Device</h2>
+<p>The extension stores the following in <strong>chrome.storage.local</strong>:</p>
+<ul>
+  <li>Token metadata cache (e.g., name, image URL, symbol)</li>
+  <li>User settings (preferred site: Axiom, GMGN, or Padre)</li>
+</ul>
+<p>
+This information never leaves your device unless the APIs described in Section 2 must be contacted to retrieve token data.
+</p>
+
+<hr>
+
+<h2>4. No Personal Data Collection</h2>
+<p>CoinLinker does <strong>not</strong> collect, store, transmit, or sell:</p>
+<ul>
+  <li>Personal identifying information</li>
+  <li>Credentials or authentication tokens</li>
+  <li>Browser history</li>
+  <li>Unique user IDs</li>
+  <li>Advertising or tracking data</li>
+</ul>
+
+<p>No analytics or telemetry is embedded in the extension.</p>
+
+<hr>
+
+<h2>5. Data Retention</h2>
+<p>
+Cached token metadata stored on your device may persist until:
+</p>
+<ul>
+  <li>You clear Chrome extension storage, or</li>
+  <li>The cache expires and is refreshed automatically</li>
+</ul>
+
+<p>No data is retained on external servers.</p>
+
+<hr>
+
+<h2>6. Security</h2>
+<p>
+CoinLinker operates entirely within the browser sandbox and does not execute remote code.  
+All external communication is performed via direct HTTPS calls to public APIs listed above.
+</p>
+
+<hr>
+
+<h2>7. Third-Party Links</h2>
+<p>
+The extension may link to external token explorers such as Axiom.trade, GMGN.ai, and Padre.gg when the user clicks a detected address.  
+These websites have their own privacy policies, and CoinLinker is not responsible for their content or behavior.
+</p>
+
+<hr>
+
+<h2>8. Changes to This Policy</h2>
+<p>
+This Privacy Policy may be updated as the extension evolves.  
+The “Last updated” date at the top of this document will reflect these changes.
+</p>
+
+<hr>
+
+<h2>9. Contact</h2>
+<p>
+If you have questions about this Privacy Policy or the extension, contact:
+</p>
+
+<p>
+<strong>Email:</strong> d.kenno2000@gmail.com
+</p>
+
+</body>
+</html>
